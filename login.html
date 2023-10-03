@@ -14,9 +14,9 @@
         <h2> Create an account </h2> 
         <p> or <br> Please log in</p>
         <form class="login-form">
-            <input class="input" type="text" name="email" placeholder="Email"><br>
-            <input  class="input" type="password" name="password" placeholder="Password"><br>
-            <button class="confirm-button" type="submit" ><a href="/index.html" class="confirm-button-text">Log in</a></button>
+            <input  class="input" type="text" name="email" placeholder="Email" required><br>
+            <input  class="input" type="password" name="password" placeholder="Password" required><br>
+            <button form="login-form" onclick = "window.location.href = '/index.html'" class="confirm-button" type="submit">Log in</button>
         </form>
         <h2> Forget password </h2>
     </div>

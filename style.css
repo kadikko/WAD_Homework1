@@ -27,7 +27,7 @@ h2{
 }
 
 .confirm-button{
-    background-color: rgb(47, 47, 150);
+    background-color: rgba(47, 47, 150, 0.812);
     color: white;
     text-align: center;
     border-width: 0px;
@@ -37,11 +37,16 @@ h2{
     margin-top: 10px;
 }
 
-.confirm-button-text{
+.confirm-button > a{
     text-decoration: none;
     color: white;
+}
+.confirm-button:hover{
+    background-color: rgba(47, 47, 150, 0.9);
 }
 
 * {
     font-family: "Courier New"
 }
+
+
