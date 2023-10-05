@@ -1,4 +1,4 @@
-.form{
+.form {
     width: 100%;
     max-width: 330px;
     padding: 15px;
@@ -8,16 +8,16 @@
     border-radius: 10px;
 }
 
-h1{
+h1 {
     color: black;
     font-size: 30px;
 }
 
-h2{
+h2 {
     color: rgb(0, 174, 255);
 }
 
-.input{
+.input {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
@@ -27,7 +27,7 @@ h2{
 }
 
 .confirm-button{
-    background-color: rgba(47, 47, 150, 0.812);
+    background-color: rgba(47, 47, 150);
     color: white;
     text-align: center;
     border-width: 0px;
@@ -37,7 +37,7 @@ h2{
     margin-top: 10px;
 }
 
-.confirm-button > a{
+.confirm-button > a {
     text-decoration: none;
     color: white;
 }
@@ -49,4 +49,190 @@ h2{
     font-family: "Courier New"
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.nav {
+    display: flex;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: rgb(0, 174, 255);
+    color: black;
+    border-radius: 10px;
+}
+
+.post>.header,
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body>footer {
+    text-align: center;
+}
+
+body>footer,
+header {
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2vh 8vw;
+    margin: 10px auto;
+}
+
+.post {
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 6px;
+}
+
+.post:last-of-type {
+    margin-bottom: 0px;
+}
+
+
+.sidebar {
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.header .icon {
+    width: 52px;
+    height: 52px;
+    padding-right: 20px;
+}
+
+.post .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.header+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img~.date {
+    color: rgb(0, 174, 255);
+    font-weight: bolder;
+}
+
+.container {
+    justify-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: rgb(0, 174, 255);
+    color: black;
+    border-radius: 10px;
+}
+
+.post>.header,
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body>footer {
+    text-align: center;
+}
+
+body>footer,
+header {
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2vh 8vw;
+    margin: 10px auto;
+}
+
+.post {
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 6px;
+}
+
+.post:last-of-type {
+    margin-bottom: 0px;
+}
+
+
+.sidebar {
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+}
+
+.header .icon {
+    width: 52px;
+    height: 52px;
+    padding-right: 20px;
+}
+
+.post .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.header+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img~.date {
+    color: rgb(0, 174, 255);
+    font-weight: bolder;
+}
+
+.container {
+    justify-items: center;
+}
