@@ -237,3 +237,16 @@ img~.date {
 .container {
     justify-items: center;
 }
+
+@media screen and (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2vh 8vw;
+        margin: 10px auto;
+    }
+
+    .sidebar {
+        display: none; /* Ukryj sidebar */
+    }
+} 
+
