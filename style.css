@@ -10,9 +10,14 @@
     margin-bottom: 10px;
 }
 
-h1 {
+#header{
     color: black;
     font-size: 30px;
+}
+
+h1 {
+    color: rgba(47, 47, 150);
+    font-size: 30px; 
 }
 
 h2 {
@@ -59,6 +64,7 @@ ul {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav a {
@@ -80,6 +86,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 body>footer {
@@ -91,6 +98,7 @@ header {
     padding: 10px;
     background-color: rgb(209, 209, 209);
     border-radius: 10px;
+    align-items: center;
 }
 
 .grid {
