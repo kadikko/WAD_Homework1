@@ -1,35 +1,36 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <ul class="nav">
-            <li><a href="login.html">
-                    <h3>Home</h3>
-                </a></li>
-            <li><a href="addPost.html">
-                    <h3>addPost</h3>
-                </a></li>
-        </ul>
-        <img class="icon" src="res/user.png" alt="Big icon">
+      <ul class="nav">
+        <li>
+          <a href="login.html">
+            <h3>Home</h3>
+          </a>
+        </li>
+        <li>
+          <a href="addPost.html">
+            <h3>addPost</h3>
+          </a>
+        </li>
+      </ul>
+      <img class="icon" src="res/user.png" alt="Big icon" />
     </header>
 
-    
     <div class="form">
         <h1>Welcome to the PostIt</h1>
-        <h2> Create an account </h2> 
-        <p> or <br> Please log in</p>
-        <form class="login-form">
-            <input  class="input" type="text" name="email" placeholder="Email" required><br>
-            <input  class="input" type="password" name="password" placeholder="Password" required><br>
-            <button form="login-form" onclick = "window.location.href = '/index.html'" class="confirm-button" type="submit">Log in</button>
-        </form>
-        <h2> Forget password </h2>
+      <h2>Create an account</h2>
+      <form action="/index.html">
+        <input class="input" type="email" placeholder="Email" required />
+        <input class="input" type="password" placeholder="Password" required /> </br>
+        <button class="confirm-button">Log in</button>
+      </form>
+      <h2>Forget password</h2>
     </div>
-</body>
+  </body>
 </html>
-
