@@ -5,17 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AddPost</title>
 </head>
+
 <body>
-    <header>
-        This is where the header goes
+    <header class = "header">
+        <ul class="nav">
+            <li>
+              <a href="index.html">
+                <h3>Home</h3>
+              </a>
+            </li>
+            
+          </ul>
+          <img class="icon" src="res/user.png" alt="Big icon" />
     </header>
+
     <div class = "form">
-        <form class = "add-post-form" >
+        <form action="/index.html">
             Post body
-            <input class = "new-post-content" type="text" placeholder="textarea"><br>
-            Select file
-            <button class = "file-explore-button"> Choose File </button><br>
-            <button class = "confirm-button"> Create post </button>
+            <input class="input" type="new-post" placeholder="Click here to write..." required><br>
+            Add an image
+            <button class="file-explore-button">Choose File</button><br>
+            <button class="confirm-button">Create post</button>
         </form>
     </div>
 
