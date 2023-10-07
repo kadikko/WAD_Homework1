@@ -32,6 +32,8 @@ h2 {
 }
 
 
+
+
 .input {
     width: auto;
     text-align: left;
@@ -39,6 +41,19 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    margin: 5px;
+}
+
+textarea {
+    max-width: 80%;
+    min-width: 80%;
+    min-height: 5%;
+    text-align: justify;
+    border-width: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
     margin: 5px;
 }
 
@@ -52,6 +67,20 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 30px;
+}
+
+.file-explore-button{
+    background-color: rgb(156, 156, 156);
+    color: black;
+    width: auto;
+    border-width: 3px;
+    padding: 1.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.file-explore-button:hover{
+    background-color: rgb(141, 141, 141);
 }
 
 .confirm-button > a {
