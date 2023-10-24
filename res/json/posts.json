@@ -3,60 +3,70 @@
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "February 20, 2023",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Viimased päevad Tartus!"
+      "content": "Viimased päevad Tartus!",
+      "thumb": true
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "January 21, 2023",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Timisoara!!! Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "content": "Timisoara!!! Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "thumb": false
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "January 14, 2023",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum, purus nec feugiat sodales, velit ligula vehicula ligula, sed lacinia sapien lectus id massa."
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum, purus nec feugiat sodales, velit ligula vehicula ligula, sed lacinia sapien lectus id massa.",
+      "thumb": true
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "January 5, 2023",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Nunc sit amet massa sapien. Integer dignissim eget diam in dignissim. Phasellus ut diam et nibh commodo mattis at nec sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "content": "Nunc sit amet massa sapien. Integer dignissim eget diam in dignissim. Phasellus ut diam et nibh commodo mattis at nec sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "thumb": true
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "December 30, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Cras dignissim, felis in consequat scelerisque, sapien augue hendrerit tortor, sed mollis sapien urna id ipsum. Nunc tempor lectus a turpis lacinia posuere."
+      "content": "Cras dignissim, felis in consequat scelerisque, sapien augue hendrerit tortor, sed mollis sapien urna id ipsum. Nunc tempor lectus a turpis lacinia posuere.",
+      "thumb": false
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "December 15, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": " Vivamus vitae pulvinar turpis, in varius tellus. Curabitur id enim tempus, cursus ex nec, consectetur est."
+      "content": " Vivamus vitae pulvinar turpis, in varius tellus. Curabitur id enim tempus, cursus ex nec, consectetur est.",
+      "thumb": true
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "December 4, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "ullam cursus mollis imperdiet. Donec vel gravida metus. Praesent iaculis massa magna, in euismod erat aliquet eu. Donec tristique tristique finibus. Nunc commodo ipsum non purus hendrerit mattis. Quisque feugiat, lacus vitae blandit tristique, sem nibh dapibus eros, vitae blandit est ex at leo. Nulla finibus euismod vulputate."
+      "content": "ullam cursus mollis imperdiet. Donec vel gravida metus. Praesent iaculis massa magna, in euismod erat aliquet eu. Donec tristique tristique finibus. Nunc commodo ipsum non purus hendrerit mattis. Quisque feugiat, lacus vitae blandit tristique, sem nibh dapibus eros, vitae blandit est ex at leo. Nulla finibus euismod vulputate.",
+      "thumb": false
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "December 1, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "In mattis pharetra pellentesque. "
+      "content": "In mattis pharetra pellentesque. ",
+      "thumb": false
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "December 1, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum, purus nec feugiat sodales, velit ligula vehicula ligula, sed lacinia sapien lectus id massa. Cras in felis eget est mollis egestas eu non quam."
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum, purus nec feugiat sodales, velit ligula vehicula ligula, sed lacinia sapien lectus id massa. Cras in felis eget est mollis egestas eu non quam.",
+      "thumb": true
     },
     {
       "usericon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/828px-User_icon-cp.svg.png",
       "date": "November 29, 2022",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg/1200px-Tartu_asv2022-04_img31_View_from_Emaj%C3%B5e_Tower.jpg",
-      "content": "Nam fermentum vulputate aliquet. Pellentesque finibus, urna eu hendrerit aliquam, neque massa fringilla eros, sit amet euismod nisi nibh at leo. Nam eu ullamcorper justo, non fermentum eros. "
+      "content": "Nam fermentum vulputate aliquet. Pellentesque finibus, urna eu hendrerit aliquam, neque massa fringilla eros, sit amet euismod nisi nibh at leo. Nam eu ullamcorper justo, non fermentum eros. ",
+      "thumb": true
     }
   ]
