@@ -182,6 +182,12 @@ header {
     display: block;
 }
 
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 img~.date {
     color: rgb(0, 174, 255);
     font-weight: bolder;
