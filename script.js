@@ -1,5 +1,6 @@
 window.onload = function() {
-    fetch('./res/json/posts.json')
+    // fetch('./res/json/posts.json')
+    fetch('https://api.npoint.io/f49067b65e08a853d1e1')
         .then((response) => response.json())
         .then(json => {
             json.map(post => {
@@ -21,13 +22,13 @@ window.onload = function() {
                 image.classList.add('img');
                 image.src = post.image;
 
-                const thumbs = document.createElement('div');
+                const thumbs = document.createElement('img');
                 thumbs.classList.add('icon');
                 const thumbsUp = post.thumbs;
                 if (thumbsUp) {
-                    thumbs.src = './res/img/thumbs-up.png';
+                    thumbs.src = './res/thumbs-up.png';
                 }else{
-                    thumbs.src = './res/img/thumbs-down.png';
+                    thumbs.src = './res/thumb-down.png';
                 }
 
                 postDiv.appendChild(userIcon);
