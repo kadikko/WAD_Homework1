@@ -60,6 +60,22 @@ window.onload = function () {
         })
 }
 
+// if show is set, then toggle to remove or vice versa
 function showUseraccount() {
     document.getElementById("useraccountDropdown").classList.toggle("show");
+}
+
+//  clicking anywhere outside of the user icon will close the dropdown
+window.onclick = function (event) {
+    if (!event.target.matches('#useraccountIcon')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+
 }
