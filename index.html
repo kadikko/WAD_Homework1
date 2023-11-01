@@ -18,7 +18,14 @@
                     <h3>addPost</h3>
                 </a></li>
         </ul>
-        <img class="icon" src="res/user.png" alt="Big icon">
+        <div class="dropdown">
+            <img onclick="showUseraccount()" id="useraccountIcon" class="icon" src="res/user.png" alt="Big icon">
+            <div id="useraccountDropdown" class="dropdown-content">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <p>logout</p>
+            </div>
+        </div>
     </header>
 
     <script defer src="script.js"></script>

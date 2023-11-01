@@ -2,14 +2,14 @@
     font-family: "Courier New"
 }
 
-#header{
+#header {
     color: black;
     font-size: 30px;
 }
 
 h1 {
     color: rgba(47, 47, 150);
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 h2 {
@@ -57,7 +57,7 @@ textarea {
     margin: 5px;
 }
 
-.confirm-button{
+.confirm-button {
     background-color: rgba(47, 47, 150);
     color: white;
     width: auto;
@@ -69,7 +69,7 @@ textarea {
     margin-top: 30px;
 }
 
-.file-explore-button{
+.file-explore-button {
     background-color: rgb(156, 156, 156);
     color: black;
     width: auto;
@@ -79,15 +79,16 @@ textarea {
     padding-right: 10px;
 }
 
-.file-explore-button:hover{
+.file-explore-button:hover {
     background-color: rgb(141, 141, 141);
 }
 
-.confirm-button > a {
+.confirm-button>a {
     text-decoration: none;
     color: white;
 }
-.confirm-button:hover{
+
+.confirm-button:hover {
     background-color: rgba(47, 47, 150, 0.85);
 }
 
@@ -182,7 +183,7 @@ header {
     display: block;
 }
 
-.img{
+.img {
     width: 100%;
     height: auto;
     display: block;
@@ -198,6 +199,39 @@ img~.date {
     padding-right: 10px;
 }
 
+#useraccountIcon {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    overflow: auto;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    z-index: 1;
+    right: -10px;
+    top: 75px;
+}
+
+.dropdown-content p {
+    padding: 10px 15px;
+    text-align: left;
+    display: block;
+    color: rgb(83, 66, 66);
+}
+
+.show {
+    display: block;
+}
+
 @media screen and (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
@@ -206,7 +240,7 @@ img~.date {
     }
 
     .sidebar {
-        display: none; /* Ukryj sidebar */
+        display: none;
+        /* Ukryj sidebar */
     }
-} 
-
+}

@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     // fetch('./res/json/posts.json')
     fetch('https://api.npoint.io/f49067b65e08a853d1e1')
         .then((response) => response.json())
@@ -6,7 +6,7 @@ window.onload = function() {
             json.map(post => {
                 const postDiv = document.createElement('div');
                 postDiv.classList.add('post');
-                
+
                 const userIcon = document.createElement('img');
                 userIcon.classList.add('icon');
                 userIcon.src = post.usericon;
@@ -27,7 +27,7 @@ window.onload = function() {
                 const thumbsUp = post.thumbs;
                 if (thumbsUp) {
                     thumbs.src = './res/thumbs-up.png';
-                }else{
+                } else {
                     thumbs.src = './res/thumb-down.png';
                 }
 
@@ -51,11 +51,15 @@ window.onload = function() {
             date = new Date().toLocaleString()
             footer.innerText = date;
             document.body.appendChild(footer);
-            })
+        })
 
     fetch('../../res/json/diy.json')
         .then((response) => response.json())
         .then(json => {
             console.log(json);
         })
+}
+
+function showUseraccount() {
+    document.getElementById("useraccountDropdown").classList.toggle("show");
 }
