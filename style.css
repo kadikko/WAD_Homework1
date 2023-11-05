@@ -18,17 +18,18 @@ h2 {
 
 
 
-
 .form {
     width: 100%;
     max-width: 330px;
-    padding: 15px;
+    padding: 5%;
     margin: auto;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    text-shadow: 1px 1px 4px rgb(100, 65, 42);;
+    backdrop-filter: blur(10px);
     border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 8px solid rgba(255, 255, 255, 0.658);
 }
 
 
@@ -58,7 +59,7 @@ textarea {
 }
 
 .confirm-button {
-    background-color: rgba(47, 47, 150);
+    background-color: rgb(117, 180, 146);
     color: white;
     width: auto;
     text-align: center;
@@ -89,7 +90,7 @@ textarea {
 }
 
 .confirm-button:hover {
-    background-color: rgba(47, 47, 150, 0.85);
+    background-color: rgb(148, 215, 179);
 }
 
 
@@ -128,6 +129,20 @@ header {
     align-items: center;
 }
 
+
+.add-post-body {
+    background-image: url(res/wallpaper_daekgreen_pattern.jpg);
+    background-size: 100%;
+}
+.login-body {
+    background-image: url(res/wallpaper_beige-pattern_repeating.jpg);
+    background-size: 100%;
+}
+.index-body {
+    background-image: url(res/NSwitch_AnimalCrossingNewHorizons_bg_grass.jpg);
+    background-size: 10%;
+}
+
 body>footer {
     text-align: center;
 }
@@ -135,10 +150,13 @@ body>footer {
 body>footer,
 header {
     padding: 10px;
-    background-color: rgb(209, 209, 209);
-    border-radius: 10px;
+    background-image: url(res/bg_grainy_gradient.png);
+    background-size: 100%;
+    border-radius: 35px;
     align-items: center;
+    border: 6px solid rgba(255, 255, 255, 0.658);
 }
+
 
 .grid {
     display: grid;
@@ -167,9 +185,13 @@ header {
 }
 
 .header .icon {
-    width: 52px;
-    height: 52px;
-    padding-right: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.758);
+    margin-top: 3px;
+    margin-bottom: 10;
+    
 }
 
 .post .icon {
