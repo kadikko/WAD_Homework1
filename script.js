@@ -1,6 +1,6 @@
 window.onload = function () {
     // fetch('./res/json/posts.json')
-    fetch('https://api.npoint.io/f49067b65e08a853d1e1')
+    fetch('https://api.npoint.io/2d5af9286bb6156116e5')
         .then((response) => response.json())
         .then(json => {
             json.map(post => {
@@ -26,9 +26,9 @@ window.onload = function () {
                 thumbs.classList.add('icon');
                 const thumbsUp = post.thumbs;
                 if (thumbsUp) {
-                    thumbs.src = './res/thumbs-up.png';
+                    thumbs.src = './res/positive_reaction_emoticon.png';
                 } else {
-                    thumbs.src = './res/thumb-down.png';
+                    thumbs.src = './res/sad_reaction_emoticon.png';
                 }
 
                 postDiv.appendChild(userIcon);

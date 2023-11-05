@@ -167,10 +167,10 @@ header {
 
 .post {
     width: 100%;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 30px;
-    padding: 6px;
+    padding: 10px;
 }
 
 .post:last-of-type {
@@ -182,6 +182,7 @@ header {
     padding: 20px;
     background-color: rgb(209, 209, 209);
     border-radius: 10px;
+    border: 6px solid rgba(255, 255, 255, 0.658);
 }
 
 .header .icon {
@@ -195,8 +196,9 @@ header {
 }
 
 .post .icon {
-    width: 32px;
-    height: 32px;
+    max-width: 50px;
+    border-radius: 100%;
+    border: 3px solid rgba(235, 223, 183, 0.758);
 }
 
 .header+.img {
