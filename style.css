@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(0, 174, 255);
+    color: rgb(38, 129, 52);
 }
 
 
@@ -109,6 +109,9 @@ ul {
 
 .nav a {
     padding: 10px 15px;
+    border-radius: 20%;
+    border: 6px solid rgba(255, 255, 255, 0.258);
+    margin: 20px;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -116,9 +119,11 @@ ul {
 }
 
 .nav a:hover {
-    background-color: rgb(163, 159, 221);
+    background-color: rgba(255, 255, 255, 0.327);
     color: black;
-    border-radius: 10px;
+    border-radius: 20%;
+    border: 6px solid rgba(255, 255, 255, 0.358);
+    margin: 20px;
 }
 
 .post>.header,
@@ -166,11 +171,11 @@ header {
 }
 
 .post {
-    width: 100%;
+    max-width: fit-content;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .post:last-of-type {
@@ -180,19 +185,25 @@ header {
 
 .sidebar {
     padding: 20px;
-    background-color: rgb(209, 209, 209);
+    background-image: url(res/AC_wallpaper.jpg);
+    background-size: 100%;
+    background-repeat:round;
     border-radius: 10px;
-    border: 6px solid rgba(255, 255, 255, 0.658);
+    border: 8px solid rgba(255, 255, 255, 0.358);
 }
 
 .header .icon {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.758);
+    border: 5px solid rgba(255, 255, 255, 0.358);
     margin-top: 3px;
     margin-bottom: 10;
     
+}
+
+.header .icon:hover {
+    border: 5px solid rgba(255, 255, 255, 0.758);  
 }
 
 .post .icon {
@@ -220,7 +231,6 @@ img~.date {
 
 .container {
     justify-items: center;
-    padding-right: 10px;
 }
 
 #useraccountIcon {
@@ -238,11 +248,13 @@ img~.date {
     overflow: auto;
     position: absolute;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    background-color: rgb(209, 209, 209);
+    background-image: url(res/bg_grainy_gradient.png);
+    background-size: 110%;
     border-radius: 10px;
+    border: 5px solid rgba(235, 223, 183, 0.758);
     z-index: 1;
     right: -10px;
-    top: 75px;
+    top: 100%;
 }
 
 .dropdown-content p {
@@ -266,5 +278,14 @@ img~.date {
     .sidebar {
         display: none;
         /* Ukryj sidebar */
+    }
+
+    .post>.header,
+        header {
+        flex-direction: column;
+    }
+
+    .nav {
+        flex-direction: column;
     }
 }
