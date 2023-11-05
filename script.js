@@ -1,6 +1,6 @@
 window.onload = function () {
     // fetch('./res/json/posts.json')
-    fetch('https://api.npoint.io/2d5af9286bb6156116e5')
+    fetch('https://api.npoint.io/e49bbe98e965d535a9ce')
         .then((response) => response.json())
         .then(json => {
             json.map(post => {

@@ -171,7 +171,7 @@ header {
 }
 
 .post {
-    max-width: fit-content;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 30px;
