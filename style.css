@@ -19,7 +19,6 @@ h2 {
 
 
 .form {
-    width: 100%;
     max-width: 330px;
     padding: 5%;
     margin: auto;
@@ -171,7 +170,7 @@ header {
 }
 
 .post {
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 30px;
